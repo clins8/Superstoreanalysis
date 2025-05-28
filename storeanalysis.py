@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Load the Superstore dataset
-df = pd.read_csv("SampleSuperstore.csv")
+df = pd.read_csv(r"C:\Users\user\Downloads\archive (1)\Sample - Superstore.csv", encoding='ISO-8859-1')
 
 #Quick look at the dataset structure and missing values
 print("Basic Dataset Info:\n")
